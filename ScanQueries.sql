@@ -1,0 +1,10 @@
+select count (*) from Data where A > 10 and B >= A;
+select count (*) from Data where A <= B and C <= B;
+select count (*) from Data where A > B and B > C;
+select count (*) from Data where A >= B and B <= C;
+select count (*) from Data where A < B and C > B;
+select count (*) from Data where C > 75 and A = 10;
+select count (*) from Data where B > 90 and A >= 1;
+select count (*) from Data where C >= 99 and B >= 10;
+select count (*) from Data where B < A and C < A;
+select count (*) from Data where A > 50 and B < 10;
